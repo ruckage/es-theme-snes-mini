@@ -1,0 +1,22 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+		
+		<image name="right_window_box" extra="true">
+			<pos>0.9916666666666667 0.4259259259259259</pos>
+			<origin>1 0.5</origin>
+		</image>
+		
+		<text name="md_description">
+			<pos>0.7375 0.2074074074074074</pos>
+		</text>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,20 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+
+    <view name="basic, detailed,video">
+
+		<textlist name="gamelist">
+			<pos>0.2895833333333333 0.2185185185185185</pos>		
+			<size>0.4208333333333333 0.5481481481481481</size>
+			<lineSpacing>1.375</lineSpacing>
+			<selectorHeight>0.0814814814814815</selectorHeight>
+			<selectorOffsetY>-0.0037037037037037</selectorOffsetY>
+		</textlist>
+		
+	</view>
+
+</theme>

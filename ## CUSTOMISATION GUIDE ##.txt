@@ -1,0 +1,62 @@
+How to change the supported resolution/aspect ratio in the SNES Mini theme.
+--------------------------------------------------------------------------
+Coming soon
+
+
+
+How to change the layout in the SNES Mini theme.
+-----------------------------------------------
+You are able to choose from several different pre-defined layouts.  Please see the png file that is included titled ## LAYOUT GUIDE ##.png for all of the available options. (Layouts are not supported in 4x3 resolutions and will be ignored).
+
+To change the layout open the config.xml file.
+
+Find the following line:
+
+	<include>./layouts/a.xml</include>
+	
+Change the letter 'a' to the letter corresponding the the layout of your choice (see ## LAYOUT GUIDE ##.png) and save the file.  When you restart Emulation Station the new layout will be active.
+
+
+
+How to change the background in the SNES Mini theme.
+----------------------------------------------------
+The SNES mini theme comes with numerous backgound styles.  For the available options see the jpg files named ## BACKGROUND GUIDE ## (numbered 1-6).
+
+To change the background open the config.xml file.
+
+Find the following line:
+
+	<include>./background/neon_blue_spectrum.xml</include>
+
+Change 'neon_blue_spectrum.xml' to the background of your choice as shown in the ## BACKGROUND GUIDE ## and save the file.  When you restart Emulation Station the new background will be active.	
+
+
+
+How to change the border style of the SNES Mini theme.
+------------------------------------------------------
+You have a choice of both Europe or USA border styles which match the SNES that was avilable in those territories.
+
+To change the border style open the config.xml file.
+
+Find the following line:
+
+	<include>./style/europe.xml</include>	
+	
+If you prefer the USA style snes simply change the word 'europe' to 'usa' and save the file.  When you restart Emulation Station the new border will be active.	
+
+
+
+How to change the rating symbol of the SNES Mini theme.
+-------------------------------------------------------
+There is a choice of 2 different ratings icons, hearts or beads.
+
+To change the border style open the config.xml file.
+
+Find the following line:
+
+	<include>./rating/heart.xml</include>	
+
+To change to the bead icon simply change the word 'heart' to 'bead' and save the file.  When you restart Emulation Station the new icon will be active.	
+
+
+Ruckage 2017

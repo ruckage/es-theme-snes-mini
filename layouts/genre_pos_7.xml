@@ -1,0 +1,26 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+    <view name="basic, detailed, video">
+		
+		<image name="bar_3, bar_3_overlay" extra="true">
+			<pos>0.716666666666667 0.633333333333333</pos>
+			<origin>0 0</origin>
+		</image>
+		
+		<text name="genre_label" extra="true">
+			<pos>0.729166666666667 0.655555555555556</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.729166666666667 0.688888888888889</pos>
+		</text>
+		
+	</view>
+	
+</theme>

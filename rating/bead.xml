@@ -1,0 +1,16 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+		
+		<rating name="md_rating">
+			<size>0.0166666666666667 0.0296296296296296</size>		
+			<filledPath>./ball_filled.png</filledPath>
+			<unfilledPath>./ball_empty.png</unfilledPath>
+		</rating>
+
+	</view>
+		
+	
+</theme>

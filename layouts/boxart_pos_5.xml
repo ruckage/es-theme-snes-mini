@@ -1,0 +1,42 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+				
+		<image name="left_window_box" extra="true">
+			<pos>0.9916666666666667 0.5</pos>
+			<origin>1 0.5</origin>
+		</image>
+		
+		<image name="missing_art" extra="true">
+			<pos>0.8541666666666667 0.5</pos>
+		</image>
+		
+		<image name="md_image">
+			<pos>0.8541666666666667 0.5</pos>
+		</image>
+
+	</view>
+	
+    <view name="video">
+	
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>
+		
+		<image name="md_image">
+			<pos>2 2</pos>
+		</image>
+
+		<video name="md_video">
+			<pos>0.8541666666666667 0.5</pos>
+		</video>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,224 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<feature supported="carousel">
+
+		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>1.333333333 1</size>
+		</image>		
+		
+		<image name="system_help" extra="true">
+			<size>1.33333333 0.1074074074074074</size>
+			<zIndex>200</zIndex>
+		</image>		
+
+			<carousel name="systemcarousel">
+				<pos>-0.17 0.3</pos>
+				<size>1.34 0.4</size>
+				<logoSize>0.2555555555555556 0.3703703703703704</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<zIndex>101</zIndex>
+			</carousel>
+
+		</view>
+
+	</feature>
+	
+	<view name="basic, detailed, video, system">
+		
+		<image name="top_decoration" extra="true">
+			<path>./../art/top_decoration.png</path>		
+			<size>0.145 0.1185185185185185</size>
+			<pos>0.79 0</pos>
+			<origin>0 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="bottom_decoration" extra="true">
+			<path>./../art/bottom_decoration.png</path>		
+			<size>0.145 0.1185185185185185</size>
+			<pos>0.79 1</pos>
+			<origin>0 1</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+	</view>
+
+    <view name="basic, detailed, video">
+	
+		<image name="background" extra="true">
+			<size>1.333333333 1</size>
+		</image>	
+		
+		<image name="gamelist_help" extra="true">
+			<size>1.33333333 0.1074074074074074</size>
+		</image>		
+	
+		<image name="md_image">
+			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
+			<pos>0.1944444444444444 0.5</pos>
+		</image>	
+			
+		<image name="left_window_border" extra="true">
+			<size>0.3888888888791667 0.6666666666666667</size>		
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="left_window_body" extra="true">
+			<size>0.3777777768333333 0.6518518518518519</size>	
+			<pos>0.0055555555555556 0.5</pos>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="right_window_border" extra="true">
+			<pos>2 0.5</pos>
+			<origin>1 0.5</origin>
+		</image>
+		
+		<image name="right_window_body" extra="true">
+			<pos>2 0.5</pos>
+			<origin>1 0.5</origin>
+		</image>
+		
+		<image name="right_window_box" extra="true">
+			<pos>2 0.5</pos>
+			<size>0 0.4888888888888889</size>
+		</image>
+		
+		<image name="left_window_box" extra="true">
+			<pos>0.0111111111111111 0.5</pos>
+			<origin>0 0.5</origin>
+			<size>0.36666666575 0.4888888888888889</size>
+		</image>				
+
+		<image name="missing_art" extra="true">
+			<pos>0.1944444444444444 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 0.2518518518518519</size>
+		</image>
+
+		
+		<image name="bar_1" extra="true">
+			<pos>0.0111111111111111 0.1814814814814815</pos>		
+			<size>0.36666666575 0.1111111111111111</size>
+		</image>		
+		
+		<image name="bar_2" extra="true">
+			<pos>2 1</pos>
+			<size>0.36666666575 0.1111111111111111</size>
+		</image>		
+
+		<image name="bar_3" extra="true">
+			<pos>2 1</pos>
+			<size>0.36666666575 0.1111111111111111</size>
+		</image>
+
+		<image name="bar_4" extra="true">
+			<pos>0.0111111111111111 0.707407407407407</pos>
+			<origin>0 0</origin>
+			<size>0.36666666575 0.1111111111111111</size>
+		</image>
+
+		<image name="player_box" extra="true">
+			<pos>0.2888888888888889 0.72962962962963</pos>
+			<size>0.0722222220416667 0.0666666666666667</size>			
+			<origin>0 0</origin>
+		</image>
+		
+		<text name="players_label" extra="true">
+			<pos>0.2944444444444444 0.733333333333333</pos>
+			<size>0.0555555555555556 0.0407407407407407</size>
+		</text>
+		
+		<text name="md_players">
+			<alignment>left</alignment>
+			<pos>0.3027777777777778 0.733333333333333</pos>
+			<size>0.0555555555555556 0.0407407407407407</size>
+		</text>
+
+		<text name="rating_label" extra="true">
+			<pos>0.0277777777777778 0.72962962962963</pos>
+			<alignment>center</alignment>
+			<size>0.125 0.0333333333333333</size>			
+		</text>		
+		
+		<rating name="md_rating">
+			<pos>0.0430555555555556 0.762962962962963</pos>
+		</rating>	
+
+		<text name="played_label" extra="true">
+			<pos>0.1583333333333333 0.72962962962963</pos>
+			<size>0.125 0.0333333333333333</size>
+		</text>		
+		
+		<text name="md_playcount">
+			<size>0.125 0.0333333333333333</size>
+			<pos>0.1583333333333333 0.751851851851852</pos>
+		</text>
+		
+		<text name="publisher_label" extra="true">
+			<pos>0.025 0.2037037037037037</pos>
+			<alignment>left</alignment>
+		</text>
+				
+		<datetime name="md_releasedate">
+			<pos>0.22 0.2037037037037037</pos>
+		</datetime>
+		
+		<text name="md_publisher">
+			<pos>0.0277777777777778 0.237037037037037</pos>
+			<size>0.3333333333333333 0.0333333333333333</size>
+		</text>			
+
+		<text name="md_description">
+			<pos>2 1</pos>
+		</text>
+		
+		
+		<text name="developer_label" extra="true">
+			<pos>2 1</pos>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<pos>2 1</pos>
+			<alignment>center</alignment>
+			<text>Genre</text>
+		</text>
+		
+		<text name="md_genre">
+			<pos>2 1</pos>
+		</text>
+		
+		<text name="md_developer">
+			<pos>2 1</pos>
+		</text>
+		
+		 
+	</view>
+	
+	<view name="video">
+	
+		<image name="md_image">
+			<pos>2 2</pos>
+		</image>
+		
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>		
+		
+		<video name="md_video">
+			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
+			<pos>0.1944444444444444 0.5</pos>
+		</video>
+	
+	</view>
+	
+</theme>

@@ -1,0 +1,238 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+
+			<carousel name="systemcarousel">
+				<pos>-0.05 0.3</pos>
+				<size>1.1 0.4</size>
+				<logoSize>0.2 0.3851851851851852</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<zIndex>101</zIndex>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0.00 0.2222222222222222</pos>
+				<size>1 0.050</size>
+				<zIndex>102</zIndex>				
+			</text>
+			
+		<image name="carousel_bar_background" extra="true">
+			<size>0 0.0666666666666667</size>
+			<pos>0.5 0.2222222222222222</pos>
+			<zIndex>100</zIndex>
+		</image>
+
+		<image name="carousel_bar_outline" extra="true">
+			<size>0 0.0666666666666667</size>
+			<pos>0.5 0.2222222222222222</pos>
+			<zIndex>101</zIndex>
+		</image>
+
+		<image name="system_help" extra="true">
+			<size>0 0.0703703703703704</size>
+		</image>	
+
+		</view>
+
+	</feature>	
+
+    <view name="basic, detailed, video">
+			
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+		
+		<image name="gamelist_help" extra="true">
+			<size>0 0.0703703703703704</size>
+		</image>
+		
+		<image name="md_image">
+			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<video name="md_video">
+			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
+		</video>
+		
+		<text name="md_developer, md_publisher, md_genre">
+			<size>0.25 0.0333333333333333</size>
+		</text>		
+		
+		<text name="md_playcount">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+		</text>
+		
+		<text name="md_players">
+			<alignment>left</alignment>
+			<size>0.08 0.0555555555555556</size>
+		</text>
+
+<!--
+		
+		<image name="left_window_body" extra="true">
+			<path>./window_body.png</path>
+			<size>0 0.6518518518518519</size>
+			<pos>0.0041666666666667 0.5</pos>
+			<origin>0 0.5</origin>
+			<color>3232329a</color>
+		</image>
+		
+		<image name="right_window_body" extra="true">
+			<path>./window_body.png</path>
+			<size>0 0.6518518518518519</size>
+			<pos>0.9958333333333333 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>4d4d4dbe</color>
+		</image>			
+-->		
+		<image name="bar_1" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>	
+
+		<image name="bar_1_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>200</zIndex>
+		</image>
+		
+		<image name="bar_2" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+
+		<image name="bar_2_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>200</zIndex>
+		</image>
+
+		<image name="bar_3" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+		
+		<image name="bar_3_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>200</zIndex>
+		</image>		
+
+		<image name="bar_4" extra="true">
+			<path>./rating_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+		
+		<image name="bar_4_overlay" extra="true">
+			<path>./rating_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>200</zIndex>			
+		</image>
+		
+		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
+			<color>ffffff80</color>
+		</image>
+		
+		<image name="left_window_border" extra="true">
+			<path>./window_border.png</path>
+			<size>0 0.6666666666666667</size>
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+		
+		<image name="right_window_border" extra="true">
+			<path>./window_border.png</path>
+			<size>0 0.6666666666666667</size>
+			<pos>1 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+			
+		<image name="right_window_box" extra="true">
+			<path>./window_box.png</path>
+			<size>0 0.4888888888888889</size>
+			<color>4c4c4c7f</color>
+			<zIndex>-100</zIndex>
+		</image>
+		
+		<image name="left_window_box" extra="true">
+			<path>./window_box.png</path>		
+			<size>0 0.4888888888888889</size>
+			<color>4c4c4c7f</color>
+			<zIndex>-100</zIndex>
+		</image>		
+
+		<image name="missing_art" extra="true">
+			<path>./missing.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0 0.2518518518518519</size>
+		</image>
+
+		<image name="player_box" extra="true">
+			<path>./player_overlay.png</path>
+			<size>0.0479166666666667 0.0555555555555556</size>
+			<color>000000</color>	
+			<zIndex>200</zIndex>
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<fontPath>./../art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.0592592592592593</fontSize>
+			<size>0.25 0.0333333333333333</size>
+		</text>
+		<!--
+		<text name="players_label" extra="true">
+			<fontPath>./../art/TinyUnicode.ttf</fontPath>
+			<size>0.0416666666666667 0.0407407407407407</size>
+			<fontSize>0.0592592592592593</fontSize>
+			<alignment>right</alignment>
+			<color>ffffff</color>
+			<text>P</text>
+		</text> -->
+		
+		<text name="publisher_label" extra="true">
+			<alignment>left</alignment>
+			<text>  Published</text>
+		</text>
+		
+		<text name="developer_label" extra="true">
+			<alignment>center</alignment>
+			<text>Developed by</text>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<alignment>center</alignment>
+			<text>Genre</text>
+		</text>	
+
+		<text name="rating_label" extra="true">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+			<text>Rating</text>
+		</text>	
+
+		<text name="played_label" extra="true">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+			<text>Played</text>
+		</text>			
+		 
+	</view>
+	
+</theme>

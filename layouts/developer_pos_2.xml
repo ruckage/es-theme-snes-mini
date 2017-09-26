@@ -1,0 +1,26 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+
+		<image name="bar_2, bar_2_overlay" extra="true">
+			<pos>0.0083333333333333 0.255555555555556</pos>
+			<origin>0 0</origin>
+		</image>	
+		
+		<text name="developer_label" extra="true">
+			<pos>0.0208333333333333 0.277777777777778</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.0208333333333333 0.311111111111111</pos>
+		</text>		
+
+	</view>
+	
+</theme>

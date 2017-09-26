@@ -1,0 +1,47 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+
+		<image name="bar_4, bar_4_overlay" extra="true">
+			<pos>0.0083333333333333 0.255555555555556</pos>
+			<origin>0 0</origin>
+		</image>
+
+		<image name="player_box" extra="true">
+			<pos>0.2166666666666667 0.277777777777778</pos>
+			<origin>0 0</origin>
+		</image>
+		
+		<text name="players_label" extra="true">
+			<pos>0.2208333333333333 0.281481481481481</pos>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.2270833333333333 0.281481481481481</pos>
+		</text>
+
+		<text name="rating_label" extra="true">
+			<pos>0.0208333333333333 0.277777777777778</pos>
+		</text>		
+		
+		<rating name="md_rating">
+			<pos>0.0270833333333333 0.311111111111111</pos>
+		</rating>	
+
+		<text name="played_label" extra="true">
+			<pos>0.11875 0.277777777777778</pos>
+		</text>		
+		
+		<text name="md_playcount">
+			<pos>0.11875 0.3</pos>
+		</text>
+		 
+	</view>
+	
+</theme>

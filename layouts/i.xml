@@ -1,0 +1,23 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+	<include>./setup.xml</include>	
+	
+	<include>./rating_pos_5.xml</include>	
+	
+	<include>./published_pos_3.xml</include>
+	
+	<include>./developer_pos_4.xml</include>	
+	
+	<include>./genre_pos_6.xml</include>
+
+	<include>./boxart_pos_1.xml</include>
+	
+	<include>./description_pos_6.xml</include>
+
+</theme>

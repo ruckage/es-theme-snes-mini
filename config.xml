@@ -1,0 +1,25 @@
+<!--
+theme name:		snes-mini
+version:		1.0
+author:			ruckage
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+<!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
+	<include>./layouts/a.xml</include>
+	
+<!-- Choose your resolution -->	
+	<include>./layouts/1920x1080.xml</include> <!-- Only 1920x1080 is currently supported-->
+
+<!-- Choose your background (see background_guide.pdf) -->	
+    <include>./background/neon_blue_spectrum.xml</include>
+	
+<!-- Choose your style (europe or usa) -->	
+	<include>./style/europe.xml</include>	
+
+<!-- Choose your rating symbol (heart or bead) -->	
+	<include>./rating/heart.xml</include>		
+
+</theme>

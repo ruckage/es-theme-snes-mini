@@ -1,0 +1,44 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+	
+		<image name="bg_color" extra="true">
+			<path>./colors/color17.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>		
+		
+		<image name="bg_overlay" extra="true">
+			<path>./bg_tron_blur/${system.name}.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff59</color>
+			<zIndex>-200</zIndex>
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>53dcff</color>
+		</text>		
+		
+		<datetime name="md_releasedate">
+			<color>53dcff</color>
+		</datetime>	
+		
+		<textlist name="gamelist">
+			<selectorColor>00acff</selectorColor>
+			<selectedColor>53dcff</selectedColor>
+			<primaryColor>ffffff9a</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+		</textlist>		
+		
+		
+	</view>
+		
+	
+</theme>

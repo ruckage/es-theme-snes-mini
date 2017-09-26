@@ -1,0 +1,60 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+	
+		<image name="bg_color" extra="true">
+			<path>./colors/color_chalk.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>		
+		
+		<image name="bg_overlay" extra="true">
+			<path>./bg_tron/${system.name}.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>000000e7</color>
+			<zIndex>-200</zIndex>
+		</image>
+
+		<text name="publisher_label" extra="true">
+			<color>aef8a0</color>
+		</text>		
+		
+		<text name="developer_label" extra="true">
+			<color>95a8ff</color>
+		</text>		
+		
+		<text name="genre_label" extra="true">
+			<color>98e0c8</color>
+		</text>		
+		
+		<text name="rating_label" extra="true">
+			<color>fcf8a4</color>
+		</text>		
+		
+		<text name="played_label" extra="true">
+			<color>cea1fa</color>
+		</text>		
+		
+		<datetime name="md_releasedate">
+			<color>ff96f9</color>
+		</datetime>	
+		
+		<textlist name="gamelist">
+			<selectorColor>cea1fa</selectorColor>
+			<selectedColor>ff96f9</selectedColor>
+			<primaryColor>ffffff9a</primaryColor>
+			<secondaryColor>98e0c8</secondaryColor>
+		</textlist>		
+		
+		
+	</view>
+		
+	
+</theme>

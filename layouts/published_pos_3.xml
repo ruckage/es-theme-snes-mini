@@ -1,0 +1,30 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+
+		<image name="bar_1, bar_1_overlay" extra="true">
+			<pos>0.0083333333333333 0.6333333333333333</pos>
+			<origin>0 0</origin>
+		</image>
+
+		<text name="publisher_label" extra="true">
+			<pos>0.0208333333333333 0.6555555555555556</pos>
+		</text>
+				
+		<datetime name="md_releasedate">
+			<pos>0.15625 0.6555555555555556</pos>
+		</datetime>
+		
+		<text name="md_publisher">
+			<pos>0.0208333333333333 0.6888888888888889</pos>
+		</text>	
+
+	</view>
+	
+</theme>
