@@ -14,7 +14,7 @@ author:			ruckage
 		</image>
 
 		<image name="player_box" extra="true">
-			<pos>0.9291666666666666 0.2074074074074074</pos>
+			<pos>0.9291666666666666 0.2111111111111111</pos>
 			<origin>0 0</origin>
 		</image>
 		
@@ -23,7 +23,7 @@ author:			ruckage
 		</text>
 		
 		<text name="md_players">
-			<pos>0.9291666666666666 0.209</pos>
+			<pos>0.9291666666666666 0.2127037037037037</pos>
 		</text>
 
 		<text name="rating_label" extra="true">

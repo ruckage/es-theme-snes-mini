@@ -13,13 +13,16 @@ author:			ruckage
 <!-- Choose your resolution -->	
 	<include>./layouts/1920x1080.xml</include> <!-- Only 1920x1080 is currently supported-->
 
-<!-- Choose your background (see background_guide.pdf) -->	
+<!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
     <include>./background/neon_blue_spectrum.xml</include>
 	
 <!-- Choose your style (europe or usa) -->	
 	<include>./style/europe.xml</include>	
 
 <!-- Choose your rating symbol (heart or bead) -->	
-	<include>./rating/heart.xml</include>		
+	<include>./rating/heart.xml</include>	
+
+<!-- Choose how number of players is displayed (icon or text) -->	
+	<include>./players/icon.xml</include>		
 
 </theme>

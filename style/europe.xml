@@ -17,7 +17,7 @@
 		
 		
 		<image name="header" extra="true">
-			<path>./../art/logos/${system.name}.png</path>
+			<path>./../art/logos/${system.theme}.png</path>
 			<size>0 0.0740740740740741</size> 
 			<pos>0.0666666666666667 0.8777777777777778</pos>
         </image>		

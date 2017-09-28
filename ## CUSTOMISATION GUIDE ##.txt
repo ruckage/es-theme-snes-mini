@@ -59,4 +59,20 @@ Find the following line:
 To change to the bead icon simply change the word 'heart' to 'bead' and save the file.  When you restart Emulation Station the new icon will be active.	
 
 
+
+How to change how the number of players is displayed in the SNES Mini theme.
+----------------------------------------------------------------------------
+You can change how the number of players is displayed in the theme, there are 2 options 'icon' or 'text.
+Icon is the default but will only display correctly if number of players is defined as a single digit in your gamelist.xml eg 1,2,3, or 4.  If you have players defined as '1-2' or '1-3' or '1-4' then you can either edit your gamelist.xml or try the 'text' option which will display the number of players as text.
+
+To change how number of players is displayed open the config.xml file.
+
+Find the following line:
+
+	<include>./players/icon.xml</include>	
+	
+To change the player display to text simply change the word 'icon' to 'text' and save the file. When you restart Emulation Station the new setting will be active.	
+
+
+
 Ruckage 2017

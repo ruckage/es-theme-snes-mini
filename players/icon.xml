@@ -1,0 +1,26 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video">
+		
+		<text name="md_players">
+			<fontPath>./../art/player_font4.ttf</fontPath>		
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.0444444444444444</fontSize>
+			<color>ffffff</color>
+			<zIndex>199</zIndex>			
+		</text>
+
+		<image name="player_box" extra="true">
+			<path>./../layouts/player_overlay.png</path>
+		</image>	
+		
+		<image name="bar_4" extra="true">
+			<path>./../layouts/rating_bar.png</path>
+		</image>		
+
+	</view>
+		
+	
+</theme>

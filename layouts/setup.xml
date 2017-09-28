@@ -78,7 +78,7 @@ author:			ruckage
 		
 		<text name="md_players">
 			<alignment>left</alignment>
-			<size>0.08 0.0555555555555556</size>
+			<size>0.0479166666666667 0.0555555555555556</size>
 		</text>
 
 <!--
@@ -107,7 +107,7 @@ author:			ruckage
 		<image name="bar_1_overlay" extra="true">
 			<path>./info_bar_overlay.png</path>
 			<size>0 0.1111111111111111</size>
-			<zIndex>200</zIndex>
+			<zIndex>150</zIndex>
 		</image>
 		
 		<image name="bar_2" extra="true">
@@ -118,7 +118,7 @@ author:			ruckage
 		<image name="bar_2_overlay" extra="true">
 			<path>./info_bar_overlay.png</path>
 			<size>0 0.1111111111111111</size>
-			<zIndex>200</zIndex>
+			<zIndex>150</zIndex>
 		</image>
 
 		<image name="bar_3" extra="true">
@@ -129,18 +129,17 @@ author:			ruckage
 		<image name="bar_3_overlay" extra="true">
 			<path>./info_bar_overlay.png</path>
 			<size>0 0.1111111111111111</size>
-			<zIndex>200</zIndex>
+			<zIndex>150</zIndex>
 		</image>		
 
 		<image name="bar_4" extra="true">
-			<path>./rating_bar.png</path>
 			<size>0 0.1111111111111111</size>
 		</image>
 		
 		<image name="bar_4_overlay" extra="true">
 			<path>./rating_bar_overlay.png</path>
 			<size>0 0.1111111111111111</size>
-			<zIndex>200</zIndex>			
+			<zIndex>150</zIndex>			
 		</image>
 		
 		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
@@ -184,7 +183,6 @@ author:			ruckage
 		</image>
 
 		<image name="player_box" extra="true">
-			<path>./player_overlay.png</path>
 			<size>0.0479166666666667 0.0555555555555556</size>
 			<color>000000</color>	
 			<zIndex>200</zIndex>
