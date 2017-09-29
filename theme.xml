@@ -42,7 +42,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./art/icons/${system.theme}.png</path>
+			<path>./art/icons${region}/${system.theme}.png</path>
 		</image>
 			
 		<image name="carousel_bar_background" extra="true">

@@ -1,3 +1,18 @@
+How to change the region style of the SNES Mini theme.
+------------------------------------------------------
+You have a choice of both Europe or USA region styles which match the SNES that was available in those regions. This will change the border, logos, icons, and backgrounds to match the SNES of the respective region.
+
+To change the region style open the config.xml file.
+
+Find the following line:
+
+	<include>./style/europe.xml</include>	
+	
+If you prefer the USA style SNES simply change the word 'europe' to 'usa' and save the file.  When you restart Emulation Station the new border will be active.
+
+
+
+
 How to change the supported resolution/aspect ratio in the SNES Mini theme.
 --------------------------------------------------------------------------
 Coming soon
@@ -29,20 +44,6 @@ Find the following line:
 	<include>./background/neon_blue_spectrum.xml</include>
 
 Change 'neon_blue_spectrum.xml' to the background of your choice as shown in the ## BACKGROUND GUIDE ## and save the file.  When you restart Emulation Station the new background will be active.	
-
-
-
-How to change the border style of the SNES Mini theme.
-------------------------------------------------------
-You have a choice of both Europe or USA border styles which match the SNES that was avilable in those territories.
-
-To change the border style open the config.xml file.
-
-Find the following line:
-
-	<include>./style/europe.xml</include>	
-	
-If you prefer the USA style snes simply change the word 'europe' to 'usa' and save the file.  When you restart Emulation Station the new border will be active.	
 
 
 

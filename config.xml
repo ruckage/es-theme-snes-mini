@@ -7,6 +7,9 @@ author:			ruckage
 <theme>
     <formatVersion>3</formatVersion>
 	
+<!-- Choose your region style (europe or usa) -->	
+	<include>./style/europe.xml</include>	
+	
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
 	<include>./layouts/a.xml</include>
 	
@@ -15,9 +18,6 @@ author:			ruckage
 
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
     <include>./background/neon_blue_spectrum.xml</include>
-	
-<!-- Choose your style (europe or usa) -->	
-	<include>./style/europe.xml</include>	
 
 <!-- Choose your rating symbol (heart or bead) -->	
 	<include>./rating/heart.xml</include>	

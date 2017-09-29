@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 1.01
-28/09/2017
+Version 1.02
+29/09/2017
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
@@ -67,6 +67,8 @@ auto-allgames
 Dreamcast
 Sega 32x
 
+29/09/2017
+Changing region style to USA will now automagically change the icon, logo, and background for the SNES to the USA style. Removed missing.png as it was sometimes visible behind boxart etc. Updated the help images for USA style as the button colours were reversed.
 
 28/09/17
 Changed help buttons to correctly match ES functions. Added option to switch between icon/text for number of players. Fixed naming error with nds icon.  Changed ${system.name} to ${system.theme} as advised by @jdrassa.  
