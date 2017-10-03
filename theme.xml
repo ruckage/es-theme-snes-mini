@@ -86,7 +86,6 @@
 		</helpsystem>	
 	
 		<image name="logo">
-			<path>./logo.png</path>
 			<pos>2 2</pos>
 			<maxSize>0.1 0.1</maxSize>
 			<origin>0 0.5</origin>

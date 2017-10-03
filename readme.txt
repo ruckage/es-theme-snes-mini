@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 1.02
-29/09/2017
+Version 1.03
+03/10/2017
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
@@ -66,6 +66,9 @@ auto-lastplayed
 auto-allgames
 Dreamcast
 Sega 32x
+
+03/10/17
+Custom collections are now supported. Changing region style to USA will now automagically change the icon and logo from Megadrive to Genesis. Fixed an error with blurred_shots_dark.xml.
 
 29/09/2017
 Changing region style to USA will now automagically change the icon, logo, and background for the SNES to the USA style. Removed missing.png as it was sometimes visible behind boxart etc. Updated the help images for USA style as the button colours were reversed.
