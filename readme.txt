@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 1.03
-03/10/2017
+Version 1.04
+18/10/2017
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
@@ -66,6 +66,19 @@ auto-lastplayed
 auto-allgames
 Dreamcast
 Sega 32x
+Amiga
+MSX
+MSX2
+Game and watch
+PC Engine CD
+PC
+Snes-Classic
+Nes-Classic
+Famicom-classic
+Super Famicom-classic
+
+18/10/17
+Added Amiga, MSX, MSX2, Game and watch, PC Engine CD, PC, Snes-Classic, Nes-Classic, Famicom-classic,  and Super Famicom-classic. Changed theme to allow for multiple custom setups. Various other fixes.
 
 03/10/17
 Custom collections are now supported. Changing region style to USA will now automagically change the icon and logo from Megadrive to Genesis. Fixed an error with blurred_shots_dark.xml.
