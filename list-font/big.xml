@@ -1,0 +1,14 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+		
+		<textlist name="gamelist">
+			<fontPath>./../art/NESCyrillic_gamelist2.ttf</fontPath>
+		</textlist>	
+
+	</view>
+		
+	
+</theme>

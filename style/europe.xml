@@ -10,13 +10,15 @@
 		<image name="border_top" extra="true">
 			<path>./../art/border_top.png</path>
 			<size>1 0.1333333333333333</size>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
 		</image>
 		
 		<image name="border_bottom" extra="true">
 			<path>./../art/border_bottom.png</path>
 			<size>1 0.1333333333333333</size>
-			<origin>0 1</origin>
-			<pos>0 1</pos>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
 		</image>
 		
 		

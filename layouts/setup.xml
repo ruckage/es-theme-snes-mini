@@ -6,6 +6,11 @@ author:			ruckage
 <theme>
     <formatVersion>3</formatVersion>
 	
+	<variables>
+		<listWidth>0.4208333333333333</listWidth>
+		<listx>0.2895833333333333</listx>		
+	</variables>
+	
 	<feature supported="carousel">
 
 		<view name="system">
@@ -41,7 +46,7 @@ author:			ruckage
 		</image>
 
 		<image name="system_help" extra="true">
-			<size>0 0.0703703703703704</size>
+			<size>0.4416666666666667 0</size>
 		</image>	
 
 		</view>
@@ -49,13 +54,34 @@ author:			ruckage
 	</feature>	
 
     <view name="basic, detailed, video">
+	
+		<textlist name="gamelist">
+			<horizontalMargin>0.0166666666666667</horizontalMargin>			
+		</textlist>
+	
+		<image name="gamelist_background" extra="true">
+			<path>./../art/gamelist_background${wide}.png</path>
+			<size>0 0.7333333333333333</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>4d4d4d9a</color>
+		</image>
+		
+		<image name="gamelist_outline" extra="true">
+			<path>./../art/gamelist_outline${wide}.png</path>
+			<size>0 0.7333333333333333</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffffbe</color>
+			<zIndex>200</zIndex>
+		</image>
 			
 		<image name="background" extra="true">
 			<size>0 1</size>
 		</image>
 		
 		<image name="gamelist_help" extra="true">
-			<size>0 0.0703703703703704</size>
+			<size>0.4416666666666667 0</size>
 		</image>
 		
 		<image name="md_image">
@@ -182,7 +208,7 @@ author:			ruckage
 		</image>
 
 		<image name="player_box" extra="true">
-			<size>0.0479166666666667 0.0555555555555556</size>
+			<size>0 0.0555555555555556</size>
 			<color>000000</color>	
 			<zIndex>200</zIndex>
 		</image>

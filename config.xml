@@ -1,6 +1,6 @@
 <!--
 theme name:		snes-mini
-version:		1.0
+version:		1.2
 author:			ruckage
 -->
 
@@ -12,17 +12,23 @@ author:			ruckage
 	
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
 	<include>./layouts/a.xml</include>
-	
-<!-- Choose your resolution -->	
-	<include>./layouts/1920x1080.xml</include> <!-- Only 1920x1080 is currently supported-->
 
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
-    <include>./background/neon_blue_spectrum.xml</include>
+    <include>./background/neon_blue_spectrum.xml</include>	
+	
+<!-- Choose your resolution -->	
+	<include>./layouts/1920x1080.xml</include> <!-- supported resolutions 640x480, 800x600, 1024x768, 1280x720, 1280x960, 1366x768, 1440x1080, 1920x1080, ntsc, pal -->
 
 <!-- Choose your rating symbol (heart or bead) -->	
 	<include>./rating/heart.xml</include>	
 
 <!-- Choose how number of players is displayed (icon or text) -->	
-	<include>./players/icon.xml</include>		
+	<include>./players/icon.xml</include>
+
+<!-- Choose font size used in the gamelist (big or small) -->	
+	<include>./list-font/big.xml</include>	
+
+<!-- Choose text alignment for the game list (left-align, center-align, right-align)-->	
+	<include>./list-font/left-align.xml</include>			
 
 </theme>

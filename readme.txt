@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 1.04
-18/10/2017
+Version 1.05
+03/12/2017
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
@@ -76,6 +76,9 @@ Snes-Classic
 Nes-Classic
 Famicom-classic
 Super Famicom-classic
+
+03/12/2017
+Added several new options to the config file (font size and text alignment).  Added support for multiple resolutions including 4x3 resoloutions, ntsc, and pal.  Adjusted the USA border to allow more space for the help icons. Updated the pc-engine icon.  Changed the colour of the usa dreamcast logo.
 
 18/10/17
 Added Amiga, MSX, MSX2, Game and watch, PC Engine CD, PC, Snes-Classic, Nes-Classic, Famicom-classic,  and Super Famicom-classic. Changed theme to allow for multiple custom setups. Various other fixes.

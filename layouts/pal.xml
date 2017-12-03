@@ -5,17 +5,16 @@ author:			ruckage
 
 <theme>
 
-	<include>./4x3setup.xml</include>
+	<include>./pal-setup.xml</include>
 
     <view name="basic, detailed,video">
 
 		<textlist name="gamelist">
 			<size>0.5611111111111111 0.5481481481481481</size>
-			<pos>0.9861111111111111 0.2259259259259259</pos>			
-			<lineSpacing>1.375</lineSpacing>
-			<origin>1 0</origin>
+			<pos>0.425 0.225</pos>			
+			<lineSpacing>1.38</lineSpacing>
 			<selectorHeight>0.0814814814814815</selectorHeight>
-			<selectorOffsetY>-0.0111111111111111</selectorOffsetY>
+			<selectorOffsetY>-0.01</selectorOffsetY>
 		</textlist>
 		
 	</view>

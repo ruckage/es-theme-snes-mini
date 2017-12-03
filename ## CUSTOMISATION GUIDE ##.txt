@@ -15,7 +15,26 @@ If you prefer the USA style SNES simply change the word 'europe' to 'usa' and sa
 
 How to change the supported resolution/aspect ratio in the SNES Mini theme.
 --------------------------------------------------------------------------
-Coming soon
+The theme supports a variety of resolutions including ntsc and pal resolutions.
+
+To change the resolution open the config.xml file.
+
+Find the following line:
+
+	<include>./layouts/1920x1080.xml</include>
+
+Change 1920x1080 to any of the supported resolutions listed below:
+
+640x480
+800x600
+1024x768
+1280x720
+1280x960
+1366x768
+1440x1080
+1920x1080
+ntsc
+pal
 
 
 
@@ -73,6 +92,29 @@ Find the following line:
 	<include>./players/icon.xml</include>	
 	
 To change the player display to text simply change the word 'icon' to 'text' and save the file. When you restart Emulation Station the new setting will be active.	
+
+
+How to change the font size used for the gamelist.
+--------------------------------------------------
+You can choose between a big or small font to display the game titles in the gamelist.
+
+To change the font size find the following line:
+
+	<include>./list-font-size/big.xml</include>	
+	
+Replace the word 'big' with 'small' to use a smaller font.
+
+
+
+How to change text alignment for the gamelist.
+----------------------------------------------
+You can choose between left, right, or center alignment for the text in the game list.
+
+To change the alignment find the following line:
+
+	<include>./list-font/left-align.xml</include>
+	
+Replace 'left-align' with either 'right-align' or 'center-align'
 
 
 

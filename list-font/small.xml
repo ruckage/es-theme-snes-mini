@@ -1,0 +1,14 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+		
+		<textlist name="gamelist">
+			<fontPath>./../art/TinyUnicodeList.ttf</fontPath>
+		</textlist>	
+
+	</view>
+		
+	
+</theme>

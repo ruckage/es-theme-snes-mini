@@ -1,0 +1,89 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+	<variables>
+		<listWidth>0.7</listWidth>
+		<wide>_wide</wide>
+	</variables>
+	
+	<include>./setup.xml</include>	
+	
+	<include>./rating_pos_4.xml</include>	
+	
+	<include>./published_pos_1.xml</include>
+	
+	<include>./boxart_pos_2.xml</include>
+	
+    <view name="basic, detailed, video">	
+	
+		<image name="bar_2, bar_3" extra="true">
+			<pos>2 2</pos>
+			<size>0 0.1111111111111111</size>
+			<color>000000</color>
+		</image>	
+
+		<image name="bar_2_overlay, bar_3_overlay" extra="true">
+			<pos>2 1</pos>
+			<size>0 0.1111111111111111</size>
+			<color>000000</color>
+		</image>			
+
+		<image name="right_window_border" extra="true">
+			<pos>2 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+
+		
+		<image name="right_window_box" extra="true">
+			<pos>2 0.5</pos>
+			<size>0 0.4888888888888889</size>
+			<color>c8c8c8</color>
+		</image>
+
+		<text name="md_description">
+			<pos>2 1</pos>
+		</text>
+		
+		
+		<text name="developer_label" extra="true">
+			<pos>2 1</pos>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<pos>2 1</pos>
+			<alignment>center</alignment>
+			<text>Genre</text>
+		</text>
+		
+		<text name="md_genre">
+			<pos>2 1</pos>
+		</text>
+		
+		<text name="md_developer">
+			<pos>2 1</pos>
+		</text>
+		
+		<image name="gamelist_background" extra="true">
+			<origin>0 0.5</origin>
+			<pos>0.29375 0.5</pos>
+		</image>
+		
+		<image name="gamelist_outline" extra="true">
+			<origin>0 0.5</origin>
+			<pos>0.29375 0.5</pos>
+		</image>
+
+		<textlist name="gamelist">
+			<horizontalMargin>0.1</horizontalMargin>
+		</textlist>		
+
+	</view>
+
+		
+</theme>
