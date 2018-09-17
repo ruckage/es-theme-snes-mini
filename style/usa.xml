@@ -1,10 +1,6 @@
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 
-	<variables>
-		<region>_usa</region>
-	</variables>	
-	
 	<view name="basic, detailed, video, system">
 	
 		<image name="border_top" extra="true">
@@ -23,7 +19,7 @@
 		
 		
 		<image name="header" extra="true">
-			<path>./../art/logos${region}/${system.theme}.png</path>
+			<path>./../art/logos_usa/$system.png</path>
 			<size>0 0.0740740740740741</size> 
 			<pos>0.5 0.0444444444444444</pos>
 			<origin>0.5 0</origin>
@@ -38,6 +34,10 @@
 			<pos>0.5 0.8888888888888889</pos>
 			<origin>0.5 0</origin>
 			<zIndex>100</zIndex>
+		</image>
+
+		<image name="logo">
+			<path>./../art/icons_usa/$system.png</path>
 		</image>
 		
 	</view>

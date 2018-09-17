@@ -5,30 +5,105 @@ author:			ruckage
 -->
 
 <theme>
-    <formatVersion>3</formatVersion>
-	
-<!-- Choose your region style (europe or usa) -->	
-	<include>./style/europe.xml</include>	
-	
-<!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
-	<include>./layouts/a.xml</include>
+    <formatVersion>4</formatVersion>
 
-<!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
-    <include>./background/neon_blue_spectrum.xml</include>	
+	<include subset="iconset" name="1-europe">./style/europe.xml</include>
+	<include subset="iconset" name="2-usa">./style/usa.xml</include>
 	
-<!-- Choose your resolution -->	
-	<include>./layouts/1920x1080.xml</include> <!-- supported resolutions 640x480, 800x600, 1024x768, 1280x720, 1280x960, 1366x768, 1440x1080, 1920x1080, ntsc, pal -->
+	<include subset="gamelistview" name="01-layout a">./layouts/a.xml</include>
+	<include subset="gamelistview" name="02-layout b">./layouts/b.xml</include>
+	<include subset="gamelistview" name="03-layout c">./layouts/c.xml</include>
+	<include subset="gamelistview" name="04-layout d">./layouts/d.xml</include>
+	<include subset="gamelistview" name="05-layout e">./layouts/e.xml</include>
+	<include subset="gamelistview" name="06-layout f">./layouts/f.xml</include>
+	<include subset="gamelistview" name="07-layout g">./layouts/g.xml</include>
+	<include subset="gamelistview" name="08-layout h">./layouts/h.xml</include>
+	<include subset="gamelistview" name="09-layout i">./layouts/i.xml</include>
+	<include subset="gamelistview" name="10-layout j">./layouts/j.xml</include>
+	<include subset="gamelistview" name="11-layout k">./layouts/k.xml</include>
+	<include subset="gamelistview" name="12-layout l">./layouts/l.xml</include>
+	<include subset="gamelistview" name="13-layout m">./layouts/m.xml</include>
+	<include subset="gamelistview" name="14-layout n">./layouts/n.xml</include>
+	<include subset="gamelistview" name="15-layout o">./layouts/o.xml</include>
+	<include subset="gamelistview" name="16-layout p">./layouts/p.xml</include>
+	<include subset="gamelistview" name="17-layout q">./layouts/q.xml</include>
+	<include subset="gamelistview" name="18-layout r">./layouts/r.xml</include>
+	<include subset="gamelistview" name="19-layout s">./layouts/s.xml</include>
+	<include subset="gamelistview" name="20-layout t">./layouts/t.xml</include>
+	<include subset="gamelistview" name="21-layout u">./layouts/u.xml</include>
+	<include subset="gamelistview" name="22-layout v">./layouts/v.xml</include>
+	<include subset="gamelistview" name="23-layout w">./layouts/w.xml</include>
+	<include subset="gamelistview" name="24-layout x">./layouts/x.xml</include>
+	<include subset="gamelistview" name="25-layout no meta a">./layouts/no_meta_a.xml</include>
+	<include subset="gamelistview" name="26-layout no meta b">./layouts/no_meta_b.xml</include>
+	<include subset="gamelistview" name="27-layout no meta c">./layouts/no_meta_c.xml</include>
+	<include subset="gamelistview" name="28-layout no meta d">./layouts/no_meta_d.xml</include>
+	<include subset="gamelistview" name="29-layout no meta e">./layouts/no_meta_e.xml</include>
+	<include subset="gamelistview" name="30-layout no meta f">./layouts/no_meta_f.xml</include>
 
-<!-- Choose your rating symbol (heart or bead) -->	
+	<include subset="colorset" name="01-Blurred shots">./background/blurred_shots.xml</include>
+	<include subset="colorset" name="02-Blurred shots black vignette">./background/blurred_shots_black_vignette.xml</include>
+	<include subset="colorset" name="03-Blurred shots dark">./background/blurred_shots_dark.xml</include>
+	<include subset="colorset" name="04-Blurred shots light">./background/blurred_shots_light.xml</include>
+	<include subset="colorset" name="05-Blurred shots white vignette">./background/blurred_shots_white_vignette.xml</include>
+	<include subset="colorset" name="06-Chalk">./background/chalk.xml</include>
+	<include subset="colorset" name="07-Chalk color">./background/chalk_color.xml</include>
+	<include subset="colorset" name="08-Neon aqua">./background/neon_aqua.xml</include>
+	<include subset="colorset" name="09-Neon aqua blur">./background/neon_aqua_blur.xml</include>
+	<include subset="colorset" name="10-Neon black red">./background/neon_black_red.xml</include>
+	<include subset="colorset" name="11-Neon black red blur">./background/neon_black_red_blur.xml</include>
+	<include subset="colorset" name="12-Neon black spectrum">./background/neon_black_spectrum.xml</include>
+	<include subset="colorset" name="13-Neon black spectrum blur">./background/neon_black_spectrum_blur.xml</include>
+	<include subset="colorset" name="15-Neon blue">./background/neon_blue.xml</include>
+	<include subset="colorset" name="16-Neon blue blur">./background/neon_blue_blur.xml</include>
+	<include subset="colorset" name="17-Neon blue spectrum">./background/neon_blue_spectrum.xml</include>
+	<include subset="colorset" name="18-Neon blue spectrum blur">./background/neon_blue_spectrum_blur.xml</include>
+	<include subset="colorset" name="19-Neon deep purple">./background/neon_deep_purple.xml</include>
+	<include subset="colorset" name="20-Neon deep purple blur">./background/neon_deep_purple_blur.xml</include>
+	<include subset="colorset" name="21-Neon green">./background/neon_green.xml</include>
+	<include subset="colorset" name="22-Neon green blur">./background/neon_green_blur.xml</include>
+	<include subset="colorset" name="23-Neon grey">./background/neon_grey.xml</include>
+	<include subset="colorset" name="24-Neon grey blur">./background/neon_grey_blur.xml</include>
+	<include subset="colorset" name="25-Neon hot pink">./background/neon_hot_pink.xml</include>
+	<include subset="colorset" name="26-Neon hot pink blur">./background/neon_hot_pink_blur.xml</include>
+	<include subset="colorset" name="27-Neon lime">./background/neon_lime.xml</include>
+	<include subset="colorset" name="28-Neon lime blur">./background/neon_lime_blur.xml</include>
+	<include subset="colorset" name="29-Neon magma">./background/neon_magma.xml</include>
+	<include subset="colorset" name="30-Neon magma blur">./background/neon_magma_blur.xml</include>
+	<include subset="colorset" name="31-Neon mustard">./background/neon_mustard.xml</include>
+	<include subset="colorset" name="32-Neon mustard blur">./background/neon_mustard_blur.xml</include>
+	<include subset="colorset" name="33-Neon peach">./background/neon_peach.xml</include>
+	<include subset="colorset" name="34-Neon paech blur">./background/neon_peach_blur.xml</include>
+	<include subset="colorset" name="35-Neon pink">./background/neon_pink.xml</include>
+	<include subset="colorset" name="36-Neon pink blue">./background/neon_pink_blue.xml</include>
+	<include subset="colorset" name="37-Neon pink blue blur">./background/neon_pink_blue_blur.xml</include>
+	<include subset="colorset" name="38-Neon pink blur">./background/neon_pink_blur.xml</include>
+	<include subset="colorset" name="39-Neon purple">./background/neon_purple.xml</include>
+	<include subset="colorset" name="40-Neon purple blur">./background/neon_purple_blur.xml</include>
+	<include subset="colorset" name="41-Neon purple green">./background/neon_purple_green.xml</include>
+	<include subset="colorset" name="42-Neon purple green blur">./background/neon_purple_green_blur.xml</include>
+	<include subset="colorset" name="43-Neon white blue">./background/neon_white_blue.xml</include>
+	<include subset="colorset" name="44-Neon white blue blur">./background/neon_white_blue_blur.xml</include>
+	<include subset="colorset" name="45-Neon white spectrum">./background/neon_white_spectrum.xml</include>
+	<include subset="colorset" name="46-Neon white spectrum blur">./background/neon_white_spectrum_blur.xml</include>
+	<include subset="colorset" name="47-Neon yellow blue">./background/neon_yellow_blue.xml</include>
+	<include subset="colorset" name="48-Neon yellow blue blur">./background/neon_yellow_blue_blur.xml</include>
+
+	<include subset="systemview" name="1-1920 x 1080">./layouts/1920x1080.xml</include> 
+	<include subset="systemview" name="2-1440 x 1080">./layouts/1440x1080.xml</include> 
+	<include subset="systemview" name="3-1280 x 960">./layouts/1280x960.xml</include> 
+	<include subset="systemview" name="4-1280 x 720">./layouts/1280x720.xml</include> 
+	<include subset="systemview" name="5-1366 x 768">./layouts/1366x768.xml</include> 
+	<include subset="systemview" name="6-1024 x 768">./layouts/1024x768.xml</include> 
+	<include subset="systemview" name="7-800 x 600">./layouts/800x600.xml</include> 
+	<include subset="systemview" name="8-640 x 480">./layouts/640x480.xml</include> 
+
 	<include>./rating/heart.xml</include>	
 
-<!-- Choose how number of players is displayed (icon or text) -->	
 	<include>./players/icon.xml</include>
 
-<!-- Choose font size used in the gamelist (big or small) -->	
 	<include>./list-font/big.xml</include>	
 
-<!-- Choose text alignment for the game list (left-align, center-align, right-align)-->	
 	<include>./list-font/left-align.xml</include>			
 
 </theme>

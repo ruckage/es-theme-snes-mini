@@ -4,7 +4,7 @@ author:			ruckage
 
 
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 	
 	<variables>
 		<listWidth>0.4208333333333333</listWidth>
@@ -60,7 +60,7 @@ author:			ruckage
 		</textlist>
 	
 		<image name="gamelist_background" extra="true">
-			<path>./../art/gamelist_background${wide}.png</path>
+			<path>./../art/gamelist_background.png</path>
 			<size>0 0.7333333333333333</size>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
@@ -68,7 +68,7 @@ author:			ruckage
 		</image>
 		
 		<image name="gamelist_outline" extra="true">
-			<path>./../art/gamelist_outline${wide}.png</path>
+			<path>./../art/gamelist_outline.png</path>
 			<size>0 0.7333333333333333</size>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
@@ -88,10 +88,10 @@ author:			ruckage
 			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
-		
-		<video name="md_video">
+
+		<image name="md_video">
 			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
-		</video>
+		</image>
 		
 		<text name="md_developer, md_publisher, md_genre">
 			<size>0.25 0.0333333333333333</size>

@@ -1,6 +1,6 @@
 <theme>
 
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 	
 	<view name="system">
 	
@@ -40,7 +40,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./art/icons${region}/${system.theme}.png</path>
+			<path>./art/icons/$system.png</path>
 		</image>
 			
 		<image name="carousel_bar_background" extra="true">
@@ -142,7 +142,7 @@
 			<forceUppercase>1</forceUppercase>
 			<scrollSound>./sounds/se_sys_cursor.wav</scrollSound>
 			<fontSize>0.0592592592592593</fontSize>
-			<selectorImagePath>./art/selector_bar${wide}.png</selectorImagePath>
+			<selectorImagePath>./art/selector_bar.png</selectorImagePath>
 		</textlist>		
 			
 		<sound name="launch">

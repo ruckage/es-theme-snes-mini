@@ -1,8 +1,9 @@
 <theme>
 
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 
-	<include>./config.xml</include>
+	
+    	<include>./config.xml</include>
 	<include>./base.xml</include>
 	
 </theme>
