@@ -4,7 +4,7 @@ author:			ruckage
 
 
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 
     <view name="basic, detailed, video">
 				
@@ -33,9 +33,9 @@ author:			ruckage
 			<pos>2 2</pos>
 		</image>
 
-		<video name="md_video">
+		<image name="md_video">
 			<pos>0.8541666666666667 0.5</pos>
-		</video>
+		</image>
 
 	</view>
 	

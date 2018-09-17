@@ -4,7 +4,7 @@ author:			ruckage
 
 
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 	
     <view name="basic, detailed, video">
 		
