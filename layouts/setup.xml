@@ -36,14 +36,37 @@ author:			ruckage
 		<image name="carousel_bar_background" extra="true">
 			<size>0 0.0666666666666667</size>
 			<pos>0.5 0.2222222222222222</pos>
+			<path>./../art/carousel_bar_background.png</path>
+			<origin>0.5 0</origin>
 			<zIndex>100</zIndex>
+			<color>4d4d4d9a</color>
 		</image>
 
 		<image name="carousel_bar_outline" extra="true">
 			<size>0 0.0666666666666667</size>
 			<pos>0.5 0.2222222222222222</pos>
+			<path>./../art/carousel_bar_outline.png</path>
+			<origin>0.5 0</origin>
 			<zIndex>101</zIndex>
+			<color>ffffffaa</color>
 		</image>
+
+<!--
+		
+		<image name="carousel_bar_selection" extra="true">
+			<size>0 0.4</size>
+			<pos>0.5 0.3</pos>
+			<zIndex>101</zIndex>
+		</image>		
+
+		<image name="carousel_bar_selection_outline" extra="true">
+			<size>0 0.4</size>
+			<pos>0.5 0.3</pos>
+			<zIndex>102</zIndex>
+			<color>ffffffbe</color>
+		</image>	
+		
+-->
 
 		<image name="system_help" extra="true">
 			<size>0.4416666666666667 0</size>
@@ -55,8 +78,10 @@ author:			ruckage
 
     <view name="basic, detailed, video">
 	
+	
 		<textlist name="gamelist">
-			<horizontalMargin>0.0166666666666667</horizontalMargin>			
+			<horizontalMargin>0.0166666666666667</horizontalMargin>		
+			<selectorImagePath>./../art/selector_bar${wide}.png</selectorImagePath>			
 		</textlist>
 	
 		<image name="gamelist_background" extra="true">
@@ -104,7 +129,11 @@ author:			ruckage
 		
 		<text name="md_players">
 			<alignment>left</alignment>
-			<size>0.0479166666666667 0.0555555555555556</size>
+			<size>0.05 0.0555555555555556</size>
+		</text>
+		
+		<text name="md_description">
+			<color>ffffff</color>
 		</text>
 
 <!--

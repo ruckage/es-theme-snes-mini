@@ -1,0 +1,59 @@
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<variables>
+		<region>_usa</region>
+	</variables>	
+	
+	<view name="basic, detailed, video, system">
+	
+		<image name="border_top" extra="true">
+			<path>./../art/border_top_us.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+		</image>
+		
+		<image name="border_bottom" extra="true">
+			<path>./../art/border_bottom_us.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+		</image>
+		
+		
+		<image name="header" extra="true">
+			<path>./../art/logos_usa/${system.theme}.png</path>
+			<size>0 0.0740740740740741</size> 
+			<pos>0.5 0.0444444444444444</pos>
+			<origin>0.5 0</origin>
+        </image>		
+		
+	</view>
+	
+	<view name="system">
+	
+		<image name="system_help" extra="true">
+			<path>./../art/system_help_us.png</path>
+			<pos>0.5 0.8888888888888889</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="logo">
+			<path>./../art/icons_usa/${system.theme}.png</path>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+	
+		<image name="gamelist_help" extra="true">
+			<path>./../art/gamelist_help_us.png</path>
+			<pos>0.5 0.8888888888888889</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+	</view>
+
+</theme>

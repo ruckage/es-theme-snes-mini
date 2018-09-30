@@ -1,0 +1,58 @@
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<variables>
+		<region></region>
+	</variables>	
+	
+	<view name="basic, detailed, video, system">
+	
+		<image name="border_top" extra="true">
+			<path>./../art/border_top.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+		</image>
+		
+		<image name="border_bottom" extra="true">
+			<path>./../art/border_bottom.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+		</image>
+		
+		
+		<image name="header" extra="true">
+			<path>./../art/logos/${system.theme}.png</path>
+			<size>0 0.0740740740740741</size> 
+			<pos>0.0666666666666667 0.8777777777777778</pos>
+        </image>		
+		
+	</view>
+	
+	<view name="system">
+	
+		<image name="system_help" extra="true">
+			<path>./../art/system_help.png</path>
+			<pos>0.5 0.0481481481481481</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="logo">
+			<path>./../art/icons/${system.theme}.png</path>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+	
+		<image name="gamelist_help" extra="true">
+			<path>./../art/gamelist_help.png</path>
+			<pos>0.5 0.0481481481481481</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+	</view>
+
+</theme>

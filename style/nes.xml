@@ -1,0 +1,146 @@
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<include>./../players/text.xml</include>
+
+	
+	
+	<view name="basic, detailed, video, system">
+	
+		<image name="border_top" extra="true">
+			<path>./../art/border_top_nes.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+		</image>
+		
+		<image name="border_bottom" extra="true">
+			<path>./../art/border_bottom_nes.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+		</image>
+		
+		
+		<image name="header" extra="true">
+			<path>./../art/logos${region}/${system.theme}.png</path>
+			<size>0 0.0740740740740741</size> 
+			<pos>0.0666666666666667 0.8777777777777778</pos>
+        </image>		
+		
+	</view>
+	
+	<view name="system">
+	
+		<image name="system_help" extra="true">
+			<path>./../art/system_help_nes.png</path>
+			<pos>0.5 0.0481481481481481</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="carousel_bar_background" extra="true">
+			<path>./nes_graphics/${system.theme}/system_title_bar.png</path>
+			<color>ffffffff</color>
+		</image>
+
+		<image name="carousel_bar_outline" extra="true">
+			<color>ffffff00</color>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+	
+		<image name="gamelist_help" extra="true">
+			<path>./../art/gamelist_help_nes.png</path>
+			<pos>0.5 0.0481481481481481</pos>
+			<origin>0.5 0</origin>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<datetime name="md_releasedate">
+			<color>ffffff</color>			
+		</datetime>		
+		
+		<rating name="md_rating">
+			<filledPath>./nes_graphics/${system.theme}/heart_filled.png</filledPath>
+			<unfilledPath>./nes_graphics/${system.theme}/heart_empty.png</unfilledPath>
+		</rating>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<alignment>left</alignment>
+			<text></text>
+		</text>
+		
+		
+		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
+			<color>00000000</color>
+		</image>
+		
+		<image name="bar_1" extra="true">
+			<path>./nes_graphics/${system.theme}/published_bar.png</path>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="bar_2" extra="true">
+			<path>./nes_graphics/${system.theme}/developed_bar.png</path>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="bar_3" extra="true">
+			<path>./nes_graphics/${system.theme}/genre_bar.png</path>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="bar_4" extra="true">
+			<path>./nes_graphics/${system.theme}/rating_bar.png</path>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="left_window_border, right_window_border" extra="true">
+			<path>./nes_graphics/${system.theme}/window_border.png</path>
+			<color>ffffff</color>
+			<zIndex>-101</zIndex>
+		</image>
+		
+		<image name="right_window_box, left_window_box" extra="true">
+			<path>./nes_graphics/${system.theme}/window_box.png</path>
+			<color>ffffff</color>
+			<zIndex>-100</zIndex>
+		</image>
+		
+		<rating name="md_rating">
+			<color>ffffff</color>
+		</rating>
+
+		<text name="md_description">
+			<color>707070</color>
+		</text>	
+
+		<image name="gamelist_background" extra="true">
+			<path>./nes_graphics/${system.theme}/gamelist${wide}.png</path>
+			<origin>0.5 0.5</origin>
+			<color>ffffffff</color>
+		</image>
+		
+		<image name="gamelist_outline" extra="true">
+			<path>./../art/overlay.png</path>
+			<size>0 0.1</size>
+			<origin>0.5 0.5</origin>
+			<pos>2 2</pos>
+			<color>ffffff00</color>
+			<zIndex>200</zIndex>
+		</image>	
+
+		<textlist name="gamelist">
+			<selectorImagePath>./nes_graphics/${system.theme}/selector_bar${wide}.png</selectorImagePath>
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff9a</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>			
+		</textlist>			
+		
+	</view>
+
+</theme>

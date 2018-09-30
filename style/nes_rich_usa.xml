@@ -1,0 +1,27 @@
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<include>./nes.xml</include>
+	
+	<variables>
+		<region>_usa</region>
+	</variables>	
+
+	
+	<view name="system">
+	
+		<image name="logo">
+			<path>./../art/nes_icons_usa/${system.theme}.png</path>
+		</image>
+	
+	</view>
+	
+	<view name="basic, detailed, video, system">
+	
+		<image name="header" extra="true">
+			<path>./../art/logos_usa/${system.theme}.png</path>
+        </image>		
+		
+	</view>
+
+</theme>

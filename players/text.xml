@@ -15,6 +15,10 @@
 
 		<image name="bar_4" extra="true">
 			<path>./../layouts/rating_bar_text.png</path>
+		</image>	
+
+		<image name="player_box" extra="true">
+			<color>00000000</color>
 		</image>		
 
 	</view>

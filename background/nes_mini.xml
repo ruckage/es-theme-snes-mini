@@ -1,0 +1,61 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+
+		<image name="bg_overlay" extra="true">
+			<path>./nes_mini/${system.theme}_system_bar.png</path>
+			<size>1 0.4</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff</color>
+			<zIndex>-199</zIndex>
+		</image>	
+	
+	</view>
+	
+	<view name="basic, detailed, video">
+
+		<image name="bg_overlay" extra="true">
+			<path>./nes_mini/${system.theme}_system_bar.png</path>
+			<size>0.1 0.1</size>
+			<origin>0.5 0.5</origin>
+			<pos>2 2</pos>
+			<color>ffffff</color>
+			<zIndex>-199</zIndex>
+		</image>	
+	
+	</view>
+	
+	<view name="basic, detailed, video, system">
+	
+		<image name="bg_color" extra="true">
+			<path>./nes_mini/${system.theme}.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff</color>
+			<zIndex>-200</zIndex>
+		</image>		
+		
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>00dbff</color>
+		</text>		
+		
+		<datetime name="md_releasedate">
+			<color>00dbff</color>
+		</datetime>	
+		
+		<textlist name="gamelist">
+			<selectorColor>00baff</selectorColor>
+			<selectedColor>7adbff</selectedColor>
+			<primaryColor>ffffff9a</primaryColor>
+			<secondaryColor>00baff</secondaryColor>
+		</textlist>		
+		
+		
+	</view>
+		
+	
+</theme>

@@ -16,16 +16,18 @@
 			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
 			<fontSize>0.0592592592592593</fontSize>
 		</text>
-			
-		<image name="carousel_bar_background" extra="true">
-			<path>./art/carousel_bar_background.png</path>
+
+	<!--			
+		<image name="carousel_bar_selection" extra="true">
+			<path>./art/carousel_bar_selection.png</path>
 			<origin>0.5 0</origin>
 		</image>	
-			
-		<image name="carousel_bar_outline" extra="true">
-			<path>./art/carousel_bar_outline.png</path>
+
+		<image name="carousel_bar_selection_outline" extra="true">
+			<path>./art/carousel_bar_selection_outline.png</path>
 			<origin>0.5 0</origin>
-		</image>	
+		</image>
+	-->
 	
 		<helpsystem name="help">
 			<pos>2 2</pos>
@@ -39,17 +41,8 @@
 
 		</image>
 
-		<image name="logo">
-			<path>./art/icons${region}/${system.theme}.png</path>
-		</image>
-			
-		<image name="carousel_bar_background" extra="true">
-			<color>4d4d4d9a</color>
-		</image>
 
-		<image name="carousel_bar_outline" extra="true">
-			<color>ffffffaa</color>
-		</image>			
+			
 		
 	</view>
 
@@ -97,7 +90,7 @@
 			<pos>1 1</pos>
 		</text>
 		
-		<text name="md_rating, md_developer, md_publisher, md_genre, md_playcount">
+		<text name="md_developer, md_publisher, md_genre, md_playcount">
 			<forceUppercase>1</forceUppercase>
 			<fontSize>0.0592592592592593</fontSize>
 			<color>ffffff</color>
@@ -120,7 +113,6 @@
 			<size>0.2447916666666667 0.437037037037037</size>
 			<alignment>left</alignment>
 			<lineSpacing>0.75</lineSpacing>
-			<color>ffffff</color>
 		</text>
 		
 		<datetime name="md_lastplayed">
@@ -142,7 +134,6 @@
 			<forceUppercase>1</forceUppercase>
 			<scrollSound>./sounds/se_sys_cursor.wav</scrollSound>
 			<fontSize>0.0592592592592593</fontSize>
-			<selectorImagePath>./art/selector_bar${wide}.png</selectorImagePath>
 		</textlist>		
 			
 		<sound name="launch">

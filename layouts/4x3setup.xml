@@ -44,8 +44,8 @@ author:			ruckage
 		</textlist>
 	
 		<image name="gamelist_background" extra="true">
-			<origin>1 0.5</origin>		
-			<pos>0.9805555555555556 0.5</pos>
+			<origin>0.5 0.5</origin>		
+			<pos>0.7055555555555556 0.5</pos>
 		</image>
 		
 		<image name="gamelist_outline" extra="true">
@@ -61,7 +61,6 @@ author:			ruckage
 		<image name="left_window_border" extra="true">
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
-			<color>c8c8c8</color>
 		</image>
 <!--		
 		<image name="left_window_body" extra="true">
@@ -81,21 +80,18 @@ author:			ruckage
 		<image name="right_window_border" extra="true">
 			<pos>2 0.5</pos>
 			<origin>1 0.5</origin>
-			<color>c8c8c8</color>
 		</image>
 
 		
 		<image name="right_window_box" extra="true">
 			<pos>2 0.5</pos>
 			<size>0 0.4888888888888889</size>
-			<color>c8c8c8</color>
 		</image>
 		
 		<image name="left_window_box" extra="true">
 			<pos>0.0111111111111111 0.5</pos>
 			<origin>0 0.5</origin>
 			<size>0 0.4888888888888889</size>
-
 		</image>				
 
 		<image name="missing_art" extra="true">
@@ -117,13 +113,11 @@ author:			ruckage
 		<image name="bar_2, bar_3" extra="true">
 			<pos>2 1</pos>
 			<size>0 0.1111111111111111</size>
-			<color>000000</color>
 		</image>	
 
 		<image name="bar_2_overlay, bar_3_overlay" extra="true">
 			<pos>2 1</pos>
 			<size>0 0.1111111111111111</size>
-			<color>000000</color>
 		</image>			
 
 		<image name="bar_4" extra="true">

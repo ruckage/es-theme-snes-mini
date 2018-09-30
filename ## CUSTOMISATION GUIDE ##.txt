@@ -1,15 +1,23 @@
-How to change the region style of the SNES Mini theme.
+How to change the style/region of the SNES Mini theme.
 ------------------------------------------------------
-You have a choice of both Europe or USA region styles which match the SNES that was available in those regions. This will change the border, logos, icons, and backgrounds to match the SNES of the respective region.
+You have a choice of several theme styles in both Europe or USA region. Dependant on the style this will change the border, logos, icons, and backgrounds.
 
-To change the region style open the config.xml file.
+To change the style open the config.xml file.
 
 Find the following line:
 
-	<include>./style/europe.xml</include>	
+	<include>./style/snes_europe.xml</include>	
 	
-If you prefer the USA style SNES simply change the word 'europe' to 'usa' and save the file.  When you restart Emulation Station the new border will be active.
+The available styles are:
 
+snes_europe.xml - matches the look of the European SNES or Japanese Super Famicom
+snes_usa.xml - matches the look of the USA SNES
+
+nes_rich_europe.xml - matches the look of the nes-mini theme and uses a different style or colour for each system.  Works best with the nes_mini backgrounds.
+nes_rich_usa.xml - see above.
+
+nes_simple_europe.xml - simpler version of the nes-mini theme.  same colour and style for all sytems.  Works well with any background.
+nes_simple_usa.xml - see above.
 
 
 
@@ -68,7 +76,7 @@ Change 'neon_blue_spectrum.xml' to the background of your choice as shown in the
 
 How to change the rating symbol of the SNES Mini theme.
 -------------------------------------------------------
-There is a choice of 2 different ratings icons, hearts or beads.
+There is a choice of 2 different ratings icons, hearts or beads. (ignored for nes styles)
 
 To change the border style open the config.xml file.
 
@@ -82,7 +90,7 @@ To change to the bead icon simply change the word 'heart' to 'bead' and save the
 
 How to change how the number of players is displayed in the SNES Mini theme.
 ----------------------------------------------------------------------------
-You can change how the number of players is displayed in the theme, there are 2 options 'icon' or 'text.
+You can change how the number of players is displayed in the theme, there are 2 options 'icon' or 'text. (ignored for nes styles)
 Icon is the default but will only display correctly if number of players is defined as a single digit in your gamelist.xml eg 1,2,3, or 4.  If you have players defined as '1-2' or '1-3' or '1-4' then you can either edit your gamelist.xml or try the 'text' option which will display the number of players as text.
 
 To change how number of players is displayed open the config.xml file.
