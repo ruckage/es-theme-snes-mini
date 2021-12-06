@@ -1,6 +1,7 @@
 Theme designed by Ruckage
-Version 1.10
-30/09/2018
+Updates by Makoffee
+Version 1.11
+06/12/2021
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
@@ -66,6 +67,7 @@ auto-lastplayed
 auto-allgames
 Dreamcast
 Sega 32x
+ScummVM
 Amiga
 MSX
 MSX2
@@ -76,6 +78,9 @@ Snes-Classic
 Nes-Classic
 Famicom-classic
 Super Famicom-classic
+
+09/12/2021
+Added ScummVM, Updated broken text list alighements.
 
 30/09/2018
 Nes mini theme is now incorporated into this theme. New layout added with no meta data at all - just the game list (no_meta_g).
