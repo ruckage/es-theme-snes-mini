@@ -1,5 +1,4 @@
 Theme designed by Ruckage
-Updates by Makoffee
 Version 1.11
 06/12/2021
 
