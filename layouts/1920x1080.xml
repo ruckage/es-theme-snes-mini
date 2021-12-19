@@ -8,11 +8,11 @@ author:			ruckage
     <view name="basic, detailed,video">
 
 		<textlist name="gamelist">
-			<pos>${listx} 0.195</pos>		
-			<size>${listWidth} 0.63</size>
+			<pos>${listx} 0.19537037037037</pos>		
+			<size>${listWidth} 0.62962962962963</size>
 			<lineSpacing>1.375</lineSpacing>
 			<selectorHeight>0.0814814814814815</selectorHeight>
-			<selectorOffsetY>-0.0122</selectorOffsetY>
+			<selectorOffsetY>-0.0111111111111111</selectorOffsetY>
 		</textlist>
 		
 	</view>
