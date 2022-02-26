@@ -7,6 +7,9 @@ author:			ruckage
 <theme>
     <formatVersion>3</formatVersion>
 	
+<!-- Choose your region (europe or usa) -->
+	<include>./region/europe.xml</include>
+
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
 	<include>./layouts/a.xml</include>
 	
@@ -19,8 +22,8 @@ author:			ruckage
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
     <include>./background/neon_blue_spectrum.xml</include>	
 	
-<!-- Choose your theme style (snes_europe or snes_usa or nes_rich_europe or nes_rich_usa or nes_simple_europe or nes_simple_usa) -->	
-	<include>./style/snes_europe.xml</include>	
+<!-- Choose your theme style (snes or nes_rich or nes_simple) -->	
+	<include>./style/snes${region}.xml</include>	
 	
 <!-- Choose your resolution -->	
 	<include>./layouts/1920x1080.xml</include> <!-- supported resolutions 640x480, 800x600, 1024x768, 1280x720, 1280x960, 1366x768, 1440x1080, 1920x1080, ntsc, pal -->

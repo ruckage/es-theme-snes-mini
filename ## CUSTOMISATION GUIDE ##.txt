@@ -4,9 +4,18 @@ You have a choice of several theme styles in both Europe or USA region. Dependan
 
 To change the style open the config.xml file.
 
-Find the following line:
+Find the following line for the region setting:
 
-	<include>./style/snes_europe.xml</include>	
+	<include>./region/europe.xml</include>
+
+The available regions are:
+
+europe.xml
+usa.xml
+
+Find the following line for the style setting:
+
+	<include>./style/snes${region}.xml</include>	
 	
 The available styles are:
 
@@ -19,7 +28,7 @@ nes_rich_usa.xml - see above.
 nes_simple_europe.xml - simpler version of the nes-mini theme.  same colour and style for all sytems.  Works well with any background.
 nes_simple_usa.xml - see above.
 
-
+NOTE: The region is automatically appended to the style name so you should only change the text in front of the ${region} to snes, nes_rich, or nes_simple.
 
 How to change the supported resolution/aspect ratio in the SNES Mini theme.
 --------------------------------------------------------------------------
