@@ -10,8 +10,8 @@ author:			ruckage
     <view name="basic, detailed,video">
 
 		<textlist name="gamelist">
-			<size>0.5611111111111111 0.5481481481481481</size>
-			<pos>0.425 0.2229166666666667</pos>			
+			<size>0.5611111111111111 0.629166666666667</size>
+			<pos>0.425 0.195833333333333</pos>
 			<lineSpacing>1.395</lineSpacing>
 			<selectorHeight>0.0814814814814815</selectorHeight>
 			<selectorOffsetY>-0.0076</selectorOffsetY>
