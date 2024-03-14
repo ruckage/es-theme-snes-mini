@@ -1,6 +1,6 @@
 Theme designed by Ruckage
 Version 1.10
-30/09/2018
+06/12/2021
 
 Theme based on and inspired by the look of the menus used on the SNES Classic.
 ------------------------------------------------------------------------------
