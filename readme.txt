@@ -64,6 +64,7 @@ Virtual Boy
 auto-favorites
 auto-lastplayed
 auto-allgames
+auto-random(currently emulationstation-dev)
 Dreamcast
 Sega 32x
 Amiga
